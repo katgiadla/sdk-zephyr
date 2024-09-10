@@ -4,4 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+<<<<<<<< HEAD:samples/subsys/ipc/ipc_service/icmsg/boards/nrf5340bsim_nrf5340_cpuapp.overlay
 #include "nrf5340dk_nrf5340_cpuapp.overlay"
+========
+&uart20 {
+	compatible = "nordic,nrf-uarte";
+	current-speed = <1000000>;
+	status = "okay";
+	hw-flow-control;
+};
+>>>>>>>> 436d1bf6288 (samples: tests: Add support to tests on nrf54l15 DK):samples/bluetooth/hci_uart/boards/nrf54l15dk_nrf54l15_cpuapp.overlay
